@@ -1,2 +1,81 @@
 # rental-laptop
 Iami Rental Laptop  Jabodetabek
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Laptop Jabodetabek | Sewa Laptop Harian & Bulanan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #f8fafc; color: #1e293b; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: white; padding: 20px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .hero { padding: 100px 0; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn { display: inline-block; padding: 12px 30px; background: #2563eb; color: white; text-decoration: none; border-radius: 5px; margin: 10px; }
+        .btn:hover { background: #1d4ed8; }
+        .features { padding: 80px 0; background: white; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+        .feature-card { text-align: center; padding: 30px; }
+        .contact { padding: 80px 0; background: #f1f5f9; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IAMI RENTAL</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Sewa Laptop Profesional Jabodetabek</h2>
+            <p>Solusi rental laptop terpercaya untuk semua kebutuhan Anda</p>
+            <a href="https://wa.me/6289616192112" class="btn" target="_blank">Pesan via WhatsApp</a>
+            <a href="https://g.page/r/CddxHkeaxe9yEB0/review" class="btn" target="_blank">Kunjungi Toko</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center;">Mengapa Memilih Kami?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt" style="font-size: 3rem; color: #2563eb; margin-bottom: 20px;"></i>
+                    <h3>Terpercaya</h3>
+                    <p>Lebih dari 5 tahun pengalaman</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt" style="font-size: 3rem; color: #2563eb; margin-bottom: 20px;"></i>
+                    <h3>Proses Cepat</h3>
+                    <p>Pemesanan mudah dan cepat</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset" style="font-size: 3rem; color: #2563eb; margin-bottom: 20px;"></i>
+                    <h3>Support 24/7</h3>
+                    <p>Tim support siap membantu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 style="text-align: center;">Hubungi Kami</h2>
+            <div style="text-align: center; margin-top: 30px;">
+                <p><i class="fas fa-phone"></i> +62 896-1619-2112</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tangerang & Jakarta </p>
+                <div style="margin-top: 20px;">
+                    <a href="https://wa.me/6289616192112" class="btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://g.page/r/CddxHkeaxe9yEB0/review" class="btn" target="_blank">
+                        <i class="fab fa-google"></i> Google Business
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
